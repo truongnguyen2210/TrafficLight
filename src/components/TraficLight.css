@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.TrafficLight {
+    display: flex;
+    flex-direction: column;
+}
+
+.buld {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: inline-block;
+    margin: 15px;
+    opacity: 0.2;
+}
+
+.active {
+    opacity: 1;
+}
+
+.red {
+    background-color: red;
+}
+
+.orange {
+    background-color: orange;
+}
+
+.green {
+    background-color: green;
+}
